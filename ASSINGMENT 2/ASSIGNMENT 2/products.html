@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>products</title>
+    <style>
+        body {
+            background-color: hwb(72 26% 72%);
+            color: white;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            text-align: center;
+            color: rgba(14, 209, 34, 1);
+        }
+        table, th, td {
+            border: 1px solid black;
+            background-color: rgb(20, 153, 153);
+            }
+
+        form {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 2px solid rgb(255, 0, 0);
+            border-radius: 10px;
+        }
+
+        fieldset {
+            border: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+
+        input[type="text"],
+        input[type="password"],
+        textarea,
+        select {
+            width: calc(100% - 20px);
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 2px solid magenta;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+
+        input[type="checkbox"],
+        input[type="radio"] {
+            margin-right: 5px;
+        }
+
+        select {
+            height: 100px;
+        }
+
+        input[type="submit"],
+        input[type="reset"] {
+            background-color: magenta;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+            margin-right: 10px;
+        }
+
+        input[type="submit"]:hover,
+        input[type="reset"]:hover {
+            background-color: darkmagenta;
+        }
+        </style>
+</head>
+<body>
+    <header><h1>OUR PRODUCTS</h1></header>
+    <P>We offer avariety of products ranging from vegetables to animal produce</P>
+    <table style= "width: 80%" align = "center">
+        <tr >
+            <td width=5%> </td>
+            <th width = 100> vegetables </th>
+            <th width = 100> Fruits</th>
+            <th width = 100>Meat</th>
+            <th width = 100>Milk</th>
+            <th width = 100>Water</th>
+            </tr>
+            <tr >
+            <td > 6-7pm </td>
+            <td >Kales</td>
+            <td >Mango</td>
+            <td >Mutton</td>
+            <td >Fresh milk from a Freisian cow</td>
+            <td >Keringet Mineral water </td>
+            </tr>
+            <tr >
+            <td > 7-8pm </td>
+            <td > Cabbages</td>
+            <td > Tomatoes </td>
+            <td > BEEF</td>
+            <td > Packet milk e.g KICC </td>
+            <td > Dasani water </td>
+            </tr>
+    </table>
+    <form>
+        <fieldset>
+        <h1>For online Orders you can fill the form below.</h1>
+        Name:
+        <input type="text"><br><br>
+        Identity Number:
+        <input type="text"><br><br>
+        <label for="street">Street Address</label>
+        <input type="text"><br><br>
+        <label for="city">City</label>
+        <input type="text"><br><br>
+        <label for="state">State</label>
+        <input type="text"><br><br>
+        <label for="zip">ZIP Code</label>
+        <input type="text"><br><br>
+        <label for="description">Give us a brief description about yourself:</label>
+        <textarea id="description" cols="30" rows="10">Type statements!!!!!!</textarea>
+    <p>
+     <p>
+        <label for="dateInput">Delivery Date:</label>
+        <input type="date" id="myDateInput" name="dateInput" min="2024-02-23" max="2024-12-31" required>
+        <p>
+           <input type="submit" name="submit" value="Submit">
+                <input type="reset" name="reset" value="Reset">
+                <input type="hidden" name="pagename" value="10">
+        </fieldset>
+    </form>
+    <nav>
+    <ul>
+    <li><a href="about us.html">about us page</a></li>
+    <li><a href="contacts.html">Contact page</a></li>
+    <li><a href="index.html">home page</a></li>
+    <li><a href="products.html">products page</a></li>
+    <li><a href="servises.html">Services</a></li> 
+    </ul>
+    </nav>
+</body>
+</html>
